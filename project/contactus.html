@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>India</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+            #register-form{
+                width: 400px;
+                background-color: white;
+                padding: 24px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .input-lable{
+                margin: 0;
+                margin-bottom: 4px;
+                margin-top: 12px;
+            }
+            .input-item{
+                width: 100%;
+            }
+            #terms-check{
+                margin-top: 12px;
+                margin-bottom: 18px;
+            }
+        </style>
+</head>
+<body>
+    
+    <ul id="topbar" style="margin-top:16px; margin-bottom:16px; text-align: center; font-size: 30px;">
+        <li class="menu-item"><a href="home.html">Home</a></li>
+        <li class="menu-item"><a href="AboutUs.html">About Us</a></li>
+        <li class="menu-item"><a href="contactus.html">Content</a></li>
+ </ul>
+ 
+ <body style="background-color: lightblue">
+  
+        <h3 style="text-align: center;">Wanna Come on my next trip? Contact Me. </h3>
+        
+         <form id="register-form" action="" method="post">
+             <div><p class="input-lable">
+                 Full Name:</p>
+                 <input class="input-item"  type="text" name="fullname" required >
+             </div>
+               
+                <p class="input-lable">Email:</p>
+                 <input class="input-item" type="email" name="email" required>
+                  <div>
+                      <p class="input-lable">contect number:</p>
+                 <input class="input-item" type="number" name="mobile" required>
+             </div>
+             
+              
+             
+             <div>
+                 <p class="input-lable">Gender:</p>
+                 <input   type="radio" name="male" value="male">
+                 Male
+                  <input  type="radio" name="female" value="female">
+                 female
+                  <input   type="radio" name="Other" value="Other">
+                 Other
+             </div>
+            
+              
+              <div>
+                  <textarea name="answer" id="" cols="30" rows="6"></textarea>
+              </div>
+              
+              <div>
+                  <input id="terms-check" type="checkbox" name="terms-conditions" value="accept">
+                  I agree to accept terms and condition
+                  
+              </div>
+              
+              <input  type="submit" name="Register">
+         </form>
+         
+         
+ 
+</body>
+</html>
